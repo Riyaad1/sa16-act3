@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="gallery">
+            <div class="item">
+                <img src="https://theuselessweb.com/share-image-large.png" alt="Image 1">
+                <p>A useless website someone wanted. Used HTML, CSS, and JS</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2018/08/Empire-Flippers-an-online-business-marketplace.webp" alt="Image 2">
+                <p>A business website, different languages were used to access a database and show it to the user.</p>
+            </div>
+        </div>
+        
+        <button onclick="redirect('http://127.0.0.1:8000/home/')">Home</button>
+        <button onclick="redirect('http://127.0.0.1:8000/about/')">About</button>
+        <button onclick="redirect('http://127.0.0.1:8000/work/')">Work</button>
+        <button onclick="redirect('http://127.0.0.1:8000/contact/')">Contact</button>
+        
+        <script>
+            function redirect(url) {
+                window.location.href = url
+            }
+        </script>
+    </body>
+</html>

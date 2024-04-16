@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Contact Me</h1>
+        <p>Phone: 901-XXX-XXXX</p>
+        <p>Email: XXXXXXX@gmail.com</p>
+        <p>Youtube: https://youtube.com/XXXXXXXX</p>
+
+        <button onclick="redirect('http://127.0.0.1:8000/home/')">Home</button>
+        <button onclick="redirect('http://127.0.0.1:8000/about/')">About</button>
+        <button onclick="redirect('http://127.0.0.1:8000/work/')">Work</button>
+        <button onclick="redirect('http://127.0.0.1:8000/contact/')">Contact</button>
+
+        <script>
+            function redirect(url) {
+                window.location.href = url
+            }
+        </script>
+    </body>
+</html>

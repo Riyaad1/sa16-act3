@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Home Page</h1>
+        <p>Hi and welcome to my portfolio, my name is (think of your own name) and im a web developer. 
+            I have over 10 years of experience in development. I have helped dozens of clients build their dream websites.
+            If you are interested, i can help you aswell.</p>
+
+        <button onclick="redirect('http://127.0.0.1:8000/home/')">Home</button>
+        <button onclick="redirect('http://127.0.0.1:8000/about/')">About</button>
+        <button onclick="redirect('http://127.0.0.1:8000/work/')">Work</button>
+        <button onclick="redirect('http://127.0.0.1:8000/contact/')">Contact</button>
+
+        <script>
+            function redirect(url) {
+                window.location.href = url
+            }
+        </script>
+    </body>
+</html>

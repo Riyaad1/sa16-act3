@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>About Me</h1>
+        <p>I graduated from the University of Memphis with my bachelors in computer science in 2005.
+            I have skills in ruby, python, javascript, html, css, c/++, and java.
+            I have worked on dozens of websites over my career and have recieved high reviews from my clients.
+        </p>
+
+        <button onclick="redirect('http://127.0.0.1:8000/home/')">Home</button>
+        <button onclick="redirect('http://127.0.0.1:8000/about/')">About</button>
+        <button onclick="redirect('http://127.0.0.1:8000/work/')">Work</button>
+        <button onclick="redirect('http://127.0.0.1:8000/contact/')">Contact</button>
+
+        <script>
+            function redirect(url) {
+                window.location.href = url
+            }
+        </script>
+    </body>
+</html>
